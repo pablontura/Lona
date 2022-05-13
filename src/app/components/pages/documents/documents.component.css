@@ -1,0 +1,25 @@
+.document {
+    list-style: circle;
+    line-height: 200%;
+    margin-bottom: 10px;
+}
+
+.document a {
+    color: black;
+    font-weight: 450;
+    text-decoration: none;
+}
+
+.document a:hover {
+    color: rgb(87, 156, 221);
+    font-weight: 450;
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    color: rgb(59, 136, 207);
+}

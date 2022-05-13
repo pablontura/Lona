@@ -1,0 +1,126 @@
+<a id="top"></a>
+<!-- Banner inicial -->
+<div style="padding: 3%; margin-top: 50px; margin-bottom: 50px; background-color: rgb(184, 229, 255);">
+    <h1 style="text-align: center; line-height: 200%;">Notícies</h1>
+    <h3 style="text-align: center; opacity: 80%;">Artícles relacionats amb la Lona</h3>
+</div>
+
+<div style="margin-left: 8%;">
+
+    <!-- Pop up alerta-->
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+        </symbol>
+        <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+        </symbol>
+        <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+        </symbol>
+    </svg>
+
+    <div class="row" style="margin-bottom: 30px; margin-right: 8%;">
+        <div class="alert alert-primary d-flex " role="alert" style="width: 63%; margin-left: 17%;">
+            <svg style="margin-top: 10px;" class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
+            <div style="margin-left: 15px; margin-right: 15px;">
+                Aquesta pàgina es troba en manteniment, és possible que algunes de les nostres entrades no estiguin disponibles. Disculpeu les molèsties.
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close" style="margin-top: 10px"></button>
+        </div>
+    </div>
+
+    <!-- Notícies propies-->
+    <a class="row tituloblog " style="margin-bottom: 20px; color: black; text-decoration: none;" href="#">
+        <h3 class="col-3">Entrades pròpies</h3>
+        <img src="assets/iconos/arrow.png" style="height: 15px; width: 45px; margin-left: -10%; margin-top: 12px;">
+    </a>
+
+    <div class="row ">
+        <div class="card  entradas ">
+            <img src="assets/noticies/subvenciones" style="height: 300px;  align-self: center;">
+            <div class="card-body ">
+                <h5 class="card-title ">Les subvencions en Lones ja estan en marxa!</h5>
+                <p class="card-text ">Badalona rebrà un nou impuls amb les subvencions en Lones destinades a empreses que fomentin el consum responsable i l'economia social i solidària. Totes les persones físiques i jurídiques que...
+                    <a class="leermas" [routerLink]="['/nodisponible']">Llegir més</a>
+                </p>
+                <p class=" card-text "><small class="text-muted ">Pujat fa 1 setmana</small></p>
+                <span class="badge rounded-pill  ">Entrada</span>
+                <span class="badge rounded-pill  ">Subvencions</span>
+            </div>
+        </div>
+        <div class="card entradas ">
+            <img src="assets/noticies/Lona" style="height: 300px;  align-self: center;">
+            <div class="card-body ">
+                <h5 class="card-title ">A Badalona tenim la nostra pròpia moneda! </h5>
+                <p class="card-text ">El projecte de la Lona neix el 2022 per la necessitat d'una recuperació econòmica i social perquè Badalona superi la greu crisi econòmica, social i sanitària que hem patit degut al Covid-19.
+                    <a class="leermas" [routerLink]="['/nodisponible']">Llegir més</a>
+                </p>
+                <p class="card-text "><small class="text-muted ">Pujat fa 1 setmana</small></p>
+                <span class="badge rounded-pill  ">Entrada</span>
+                <span class="badge rounded-pill  ">Informació</span>
+            </div>
+        </div>
+
+        <div class="card entradas">
+            <img src="assets/noticies/botiguer" style="height: 300px;  align-self: center;">
+            <div class="card-body ">
+                <h5 class="card-title ">Amb la Lona he aconseguit nous clients </h5>
+                <p class="card-text ">Jordi afirma que des que utilitza la Lona a la seva botiga, té un flux més gran de clients. Tot és qüestió de ser amable amb ells per aconseguir una fidelització i construir una bona xarxa de relacions personals.
+                    <a class="leermas" [routerLink]="['/nodisponible']">Llegir més</a></p>
+                <p class="card-text "><small class="text-muted ">Pujat fa 2 setmanes</small></p>
+                <span class="badge rounded-pill  ">Entrada</span>
+                <span class="badge rounded-pill  ">Experiència personal</span>
+                <span class="badge rounded-pill  ">Botiguers</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Notícies externes-->
+    <a class="row tituloblog " style="margin-bottom: 20px;margin-top: 20px; color: black; text-decoration: none;" href="#">
+        <h3 class="col-3">Notícies externes</h3>
+        <img src="assets/iconos/arrow.png" style="height: 15px; width: 45px; margin-left: -10%; margin-top: 12px;">
+    </a>
+
+    <div class="row" style="margin-right: -150px;">
+        <div class="col-5">
+            <ol>
+                <li class="document">
+                    <a href="contacte/#Fomulario1">Descubre la Lona: moneda social creada por el ayuntamiento de Badalona <b>(La Vanguardia)</b></a>
+                </li>
+                <li class="document">
+                    <a href="contacte/#Fomulario1">La moneda que se han inventado en Badalona <b>(RTVE)</b></a>
+                </li>
+                <li class="document">
+                    <a href="contacte/#Fomulario1">Una eina ideal per ajudar el petit comerç <b>(CCMA)</b></a>
+                </li>
+                <li class="document">
+                    <a href="contacte/#Fomulario1">Las monedas digitales locales se han convertido en una herramienta potenciadora <b>(RTVE)</b></a>
+                </li>
+            </ol>
+        </div>
+        <div class="col-5">
+            <ol>
+                <li class="document">
+                    <a href="contacte/#Fomulario1">Imaginar un futuro y contribuir a crearlo <b>(ABC)</b></a>
+                </li>
+                <li class="document">
+                    <a href="contacte/#Fomulario1">Badalona apuesta por el comercio local <b>(El país)</b></a>
+                </li>
+                <li class="document">
+                    <a href="contacte/#Fomulario1">Descobreix més sobre la Lona, l'iniciativa creada per l'ajuntament de Badalona <b>(CCMA)</b></a>
+                </li>
+                <li class="document">
+                    <a href="contacte/#Fomulario1">Noves formes d'innovació social <b>(Diari Ara)</b></a>
+                </li>
+
+            </ol>
+        </div>
+    </div>
+
+
+
+
+</div>

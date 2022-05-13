@@ -1,0 +1,223 @@
+<a id="top"></a>
+<h1 style="text-align: center; margin-bottom: 40px; margin-top: 40px;text-transform:uppercase; letter-spacing: 3px; ">Vull començar a utilitzar la Lona!</h1>
+
+<div class="row" style="margin-top: 50px; margin-bottom: 50px;">
+    <div class="col-5 " style="text-align:justify; margin-left: 20%;">
+        <p style=" line-height: 250%; ">Dins de l'aplicació mòbil diferenciem entre 2 tipus d'usuaris diferents:</p>
+        <ol>
+            <li style="list-style: circle;  line-height: 250%; "><b>Empreses</b>: Inclou a empreses, cooperatives, associacions o treballadors autònoms que ofereixen els seus serveis a Badalona. Aquests usuaris apareixeran al llistat de l'aplicació perquè altres usuaris puguin trobar els seus serveis amb
+                més facilitat.
+            </li>
+            <li style="list-style: circle;  line-height: 250%; "><b>Persones</b>: Inclou qualsevol persona física amb domicili a Badalona. Els treballadors autònoms no es consideren persones.</li>
+        </ol>
+        <p style=" line-height: 250%; ">Per fer la teva inscripció, hauràs d'omplir un dels formularis d'aquesta pàgina, en funció de quin s'adjusti més a les teves característiques com usuari/a.</p>
+        <a id="persones"></a>
+    </div>
+    <div style="text-align: center; margin-bottom: 50px;" class="col-4">
+        <img src="assets/Logos/Logo trans horiz.png" style="margin-top: 45px; padding-right: 20px;padding-left: 25px;" />
+    </div>
+</div>
+<!-- Formulari persones-->
+<div class="form2 " style="padding: 60px; padding-right: 15%; padding-left: 15%; color: white; margin-top: 30px; ">
+    <h1 style="text-align: center; margin-bottom: 40px; color: rgb(183, 231, 250); text-transform:uppercase; letter-spacing: 3px; ">Persones</h1>
+    <h5 style="text-align: center; margin-bottom: 70px; font-weight: 100 ">Si estàs interessat/ada en formar part de la nostra comunitat, omple el següent formulari per crear el teu compte en un moment.</h5>
+
+    <form class="row g-3 ">
+        <div class="col-md-2 ">
+            <label class="form-label ">Nom <b>*</b></label>
+            <input type="text " class="form-control formulario " placeholder="El teu nom">
+        </div>
+        <div class="col-md-3 ">
+            <label class="form-label ">Cognoms <b>*</b></label>
+            <input type="text " class="form-control formulario " placeholder="Primer i segon cognom">
+        </div>
+        <div class="col-3 ">
+            <label class="form-label ">Telèfon <b>*</b></label>
+            <input type="tel " class="form-control formulario " placeholder="620 XX XX XX ">
+        </div>
+        <div class="col-4 ">
+            <label class="form-label ">Direcció de correu <b>*</b></label>
+            <input type="email " class="form-control formulario " placeholder="nom@exemple.cat">
+        </div>
+        <div class="col-md-4 ">
+            <label class="form-label ">Barri <b>*</b></label>
+            <input class="form-control formulario" list="Barris " placeholder="Escriu per buscar... ">
+            <datalist id="Barris ">
+                <option value="ARTIGAS "></option>
+                <option value="BONAVISTA"></option>
+                <option value="BUFALÀ"></option>
+                <option value="CAN CLARIS"></option>
+                <option value="CANYADÓ"></option>
+                <option value="CANYET"></option>
+                <option value="CASAGEMAS"></option>
+                <option value="CENTRE"></option>
+                <option value="CONGRÉS"></option>
+                <option value="DALT LA VILA"></option>
+                <option value="EL REMEI"></option>
+                <option value="GORG"></option>
+                <option value="LA MORA"></option>
+                <option value="LA PAU"></option>
+                <option value="LA SALUT"></option>
+                <option value="LES GUIXERES"></option>
+                <option value="LLOREDA"></option>
+                <option value="MANRESÀ"></option>
+                <option value="MAS RAM"></option>
+                <option value="MONTIGALÀ"></option>
+                <option value="MORERA"></option>
+                <option value="NOVA LLOREDA"></option>
+                <option value="POMAR"></option>
+                <option value="POMAR DE DALT"></option>
+                <option value="PROGRÉS"></option>
+                <option value="PUIGFRED"></option>
+                <option value="RAVAL"></option>
+                <option value="SANT ANTONI DE LLEFIÀ"></option>
+                <option value="SANT CRIST DE CAN CABANYES"></option>
+                <option value="SANT JOAN DE LLEFIÀ"></option>
+                <option value="SANT MORI DE LLEFIÀ"></option>
+                <option value="SANT ROC"></option>
+                <option value="SISTRELLS"></option>
+            </datalist>
+        </div>
+        <div class="col-sm-3 ">
+            <label class="form-label ">Nom d'usuari <b>*</b></label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">@</div>
+                </div>
+                <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Nom identificatiu a l'app">
+            </div>
+        </div>
+        <div class="col-3 ">
+            <label for="inputPassword6" class="form-label ">Contrasenya <b>*</b></label>
+            <input type="password" id="inputPassword6" class="form-control " placeholder="Ha de tenir entre 8 i 20 caràcters" aria-describedby="passwordHelpInline">
+        </div>
+
+    </form>
+
+    <form class="row g-3 " style="margin-top: 4px; ">
+        <div class="col-6 ">
+            <label class="form-label ">Raò del registre <b>*</b></label>
+            <select class="form-control formulario custom-select" list="rao" placeholder="Escriu per buscar... ">
+                <option value="1">Comparteixo els valors que representa la Lona</option>
+                <option value="2">Vull optar per una subvenció en Lones</option>
+                <option value="3">Altre raó</option>
+            </select>
+
+        </div>
+        <div class="col-6 ">
+            <label class="form-label ">Com vas conèixer aquesta iniciativa? <b>*</b></label>
+            <select class="form-control formulario custom-select" list="coneixer">
+                <option value="1">Recomanació per part d'un conegut</option>
+                <option value="2">A través d'una notícia</option>
+                <option value="3">Al veure el logotip de la Lona per la ciutat</option>
+                <option value="4">Al voler demanar una subvenció</option>                
+                <option value="5">Altre motiu</option>
+            </select>
+
+        </div>
+
+        <div class="form-check" style="margin-left: 7px;margin-top: 30px;">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked>
+            <label class="form-check-label" for="defaultCheck1">
+              Vull rebre notificacion i notícies sobre la Lona
+            </label>
+        </div>
+        <div class="col-10 " style="margin-top: 30px; ">
+            <button class="btn " [routerLink]="[ '/gracias'] " style="background-color: rgb(183, 231, 250); letter-spacing: 2px;border-radius: 0%; border-width: 2px; width: 215px; height: 120%; ">Crear usuari</button>
+        </div>
+    </form>
+</div>
+<a id="empreses"></a>
+<!-- Formulari empreses-->
+<div class="form6 " style="padding: 60px; padding-right: 15%; padding-left: 15%; color: white; margin-top: 80px; ">
+    <h1 style="text-align: center; margin-bottom: 40px; color: rgb(183, 231, 250); text-transform:uppercase; letter-spacing: 3px; ">Empreses</h1>
+    <h5 style="text-align: center; margin-bottom: 70px; font-weight: 100 ">Si esteu interessats a formar part de la nostra comunitat, ompliu el següent formulari i respondrem a la vostra candidatura el més ràpid possible.</h5>
+
+    <form class="row g-3 ">
+        <div class="col-md-5 ">
+            <label class="form-label ">Nom de l'empresa <b>*</b></label>
+            <input type="text " class="form-control formulario " placeholder="El nom de l'entitat">
+        </div>
+        <div class="col-4 ">
+            <label class="form-label ">Sector <b>*</b></label>
+            <input class="form-control formulario" list="Sectors" placeholder="Escriu per buscar... ">
+            <datalist id="Sectors">
+                <option value="Alimentació"></option>
+                <option value="Equipament de la llar "></option>
+                <option value="Moda i complements "></option>
+                <option value="Oci i Lleure"></option>
+                <option value="Restauració "></option>
+                <option value="Salut "></option>
+                <option value="Serveis professionals"></option>
+                <option value="Altres sectors "></option>
+            </datalist>
+        </div>
+        <div class="col-md-3 ">
+            <label class="form-label ">Barri <b>*</b></label>
+            <input class="form-control formulario" list="datalistOptions " placeholder="Escriu per buscar... ">
+            <datalist id="datalistOptions ">
+                <option value="ARTIGAS "></option>
+                <option value="BONAVISTA"></option>
+                <option value="BUFALÀ"></option>
+                <option value="CAN CLARIS"></option>
+                <option value="CANYADÓ"></option>
+                <option value="CANYET"></option>
+                <option value="CASAGEMAS"></option>
+                <option value="CENTRE"></option>
+                <option value="CONGRÉS"></option>
+                <option value="DALT LA VILA"></option>
+                <option value="EL REMEI"></option>
+                <option value="GORG"></option>
+                <option value="LA MORA"></option>
+                <option value="LA PAU"></option>
+                <option value="LA SALUT"></option>
+                <option value="LES GUIXERES"></option>
+                <option value="LLOREDA"></option>
+                <option value="MANRESÀ"></option>
+                <option value="MAS RAM"></option>
+                <option value="MONTIGALÀ"></option>
+                <option value="MORERA"></option>
+                <option value="NOVA LLOREDA"></option>
+                <option value="POMAR"></option>
+                <option value="POMAR DE DALT"></option>
+                <option value="PROGRÉS"></option>
+                <option value="PUIGFRED"></option>
+                <option value="RAVAL"></option>
+                <option value="SANT ANTONI DE LLEFIÀ"></option>
+                <option value="SANT CRIST DE CAN CABANYES"></option>
+                <option value="SANT JOAN DE LLEFIÀ"></option>
+                <option value="SANT MORI DE LLEFIÀ"></option>
+                <option value="SANT ROC"></option>
+                <option value="SISTRELLS"></option>
+            </datalist>
+        </div>
+        <div class="col-md-5 ">
+            <label class="form-label ">Persona encarregada <b>*</b></label>
+            <input type="text " class="form-control formulario " placeholder="El teu nom complet">
+        </div>
+        <div class="col-3 ">
+            <label class="form-label ">Telèfon <b>*</b></label>
+            <input type="tel " class="form-control formulario " placeholder="620 XX XX XX ">
+        </div>
+        <div class="col-4 ">
+            <label class="form-label ">Direcció de correu <b>*</b></label>
+            <input type="email " class="form-control formulario " placeholder="nom@exemple.cat">
+        </div>
+    </form>
+
+    <form class="row g-3 " style="margin-top: 4px; ">
+        <div class="col-6">
+            <label for="formFileSm" class="form-label">Adjunta la documentació especificada a la nostra pàgina <i>Documentació </i> <b>*</b></label>
+            <input class="form-control " type="file" multiple style="width: 550px;">
+        </div>
+        <div class="form-check" style="margin-left: 7px;margin-top: 30px;">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" checked>
+            <label class="form-check-label" for="defaultCheck1">
+              Vull rebre notificacion i notícies sobre la Lona
+            </label>
+        </div>
+        <div class="col-10 " style="margin-top: 30px; ">
+            <button class="btn " [routerLink]="[ '/gracias'] " style="background-color: rgb(183, 231, 250); letter-spacing: 2px;border-radius: 0%; border-width: 2px; width: 215px; height: 120%; ">Enviar candidatura</button>
+        </div>
+    </form>
+</div>

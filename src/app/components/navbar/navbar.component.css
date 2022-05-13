@@ -1,0 +1,58 @@
+.topnav a {
+    float: left;
+    color: rgb(102, 101, 101);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+
+/* Cuando pasa ratón por encima */
+
+.topnav a:hover {
+    background-color: rgb(173, 222, 241);
+    font-weight: 500;
+    color: black;
+}
+
+
+/* Para pestaña Inicio */
+
+.topnav a.active {
+    color: rgb(77, 77, 77);
+    font-weight: 500;
+}
+
+.topnav a.active:hover {
+    font-weight: 800;
+}
+
+
+/* Dropdown */
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    margin-top: 50px;
+    position: absolute;
+    background-color: rgb(173, 222, 241);
+    width: 200px;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

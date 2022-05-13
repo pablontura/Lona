@@ -1,0 +1,13 @@
+.accordion-button {
+    background-color: rgb(153, 205, 250);
+    font-weight: 500;
+}
+
+.accordion-item {
+    border-color: rgb(148, 196, 235) !important;
+    border-width: 2px;
+}
+
+.accordion-body {
+    line-height: 200%;
+}

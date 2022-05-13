@@ -1,0 +1,92 @@
+/* Forma de las entradas*/
+
+.entradas {
+    width: 30rem;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    padding-top: 8px;
+}
+
+.entradas:hover {
+    background-color: rgb(228, 249, 253);
+    border-width: 2px;
+}
+
+
+/* Gifs activados al pasar por encima*/
+
+.static {
+    position: absolute;
+    background: white;
+    height: 255px;
+}
+
+.static:hover {
+    opacity: 0;
+}
+
+.entradas:hover~img.static {
+    opacity: 0;
+}
+
+
+/* Tags de las entradas*/
+
+.rounded-pill {
+    margin-right: 4px;
+    background-color: rgb(168, 216, 248) !important;
+}
+
+.rounded-pill:hover {
+    background-color: rgb(148, 201, 236) !important;
+    zoom: 110%;
+}
+
+
+/* Titulo de la categoria*/
+
+.tituloblog:hover {
+    opacity: 70%;
+}
+
+
+/* Botón leer más*/
+
+.leermas {
+    color: rgb(91, 178, 236);
+    padding-left: 5px;
+    font-size: small;
+}
+
+.leermas:hover {
+    zoom: 105%;
+}
+
+.iframe:hover {
+    filter: blur(5px);
+}
+
+.document {
+    list-style: circle;
+    line-height: 350%;
+    margin-bottom: 10px;
+}
+
+.document a {
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.document a b {
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.document a:hover {
+    color: rgb(87, 156, 221);
+    font-weight: 450;
+    text-decoration: none;
+}

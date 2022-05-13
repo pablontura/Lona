@@ -1,0 +1,135 @@
+/* MARGEN LATERAL DE LAS PÁGINAS (BODY)*/
+
+.margen-lateral {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.centrado {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 4%;
+}
+
+
+/* AMPLIAR BOTONES AL PASAR POR ENCIMA*/
+
+.btn:hover {
+    background-color: rgb(143, 211, 238) !important;
+    border-width: 2px;
+    font-weight: 500 !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formulario:focus {
+    background-color: rgb(227, 246, 253);
+    border-color: rgb(228, 249, 253);
+    border-width: 2px;
+    box-shadow: initial;
+}
+
+.card-body li {
+    text-align: start !important;
+    line-height: 250%;
+}
+
+
+/* BANNERS */
+
+.banner {
+    background: url(src/assets/banners/banner10.jpg);
+    /* No se repetirá la imagen */
+    background-repeat: no-repeat;
+    /* Posición fija para la imagen */
+    background-attachment: fixed;
+}
+
+.form1 {
+    background: url(src/assets/banners/banner6.jpg);
+    /* No se repetirá la imagen */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form2 {
+    background: url(src/assets/banners/banner5.png);
+    /* No se repetirá la imagen */
+    background-repeat: no-repeat;
+    /* Posición fija para la imagen */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.form3 {
+    background: url(src/assets/banners/banner34.jpg);
+    /* No se repetirá la imagen */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner4 {
+    background: url(src/assets/banners/banner18.jpg);
+    /* No se repetirá la imagen */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner5 {
+    background: url(src/assets/banners/banner30.jpg);
+    /* No se repetirá la imagen */
+    background-repeat: no-repeat;
+    /* Posición fija para la imagen */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.form6 {
+    background: url(src/assets/banners/banner1.jpg);
+    /* No se repetirá la imagen */
+    background-repeat: no-repeat;
+    /* Posición fija para la imagen */
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/* REDES SOCIALES */
+
+.fa {
+    padding: 20px;
+    font-size: 18px;
+    width: 50px;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    color: black;
+}
+
+.fa-twitter {
+    color: black;
+}
+
+.fa-instagram {
+    color: black;
+}
+
+.fa-youtube {
+    color: black;
+}
+
+.fa-facebook:hover {
+    color: rgb(77, 77, 77);
+}
+
+.fa-twitter:hover {
+    color: rgb(77, 77, 77);
+}
+
+.fa-instagram:hover {
+    color: rgb(77, 77, 77);
+}
+
+.fa-youtube:hover {
+    color: rgb(77, 77, 77);
+}

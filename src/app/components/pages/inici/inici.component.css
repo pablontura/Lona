@@ -1,0 +1,48 @@
+.centrado {
+    position: static;
+    line-height: 400%;
+}
+
+.cuadrados-inicio {
+    background-color: rgb(195, 233, 248);
+    text-align: center;
+}
+
+.cuadrado-oscuro {
+    background-color: rgb(175, 225, 245);
+}
+
+.cuadrados-inicio:hover {
+    background-color: rgb(212, 233, 247);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: blue;
+}
+
+.servicios {
+    width: 22rem;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.clientesref {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    width: 25rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.margenlateral {
+    margin-left: 20%;
+    margin-right: 20%;
+}

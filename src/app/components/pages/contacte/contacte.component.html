@@ -1,0 +1,109 @@
+<a id="top"></a>
+<div class="banner5" style="padding-top: 100px; padding-bottom: 50px;">
+    <h1 style="text-align: center; color: white; margin-bottom: 30px; text-transform: uppercase;">Atenció al client</h1>
+    <h4 style="text-align: center; color: white;">Per realitzar qualsevol consulta o sol·licitud pots posar-te en contacte amb nosaltres de les formes següents:</h4>
+
+    <div class="row centrado" style="justify-content: center;">
+        <div class="card contactos" style="padding: 10px;">
+            <div class="card-body">
+                <img src="assets/iconos/phone.png" class="col-md-2" style="margin-bottom: 15px;" />
+                <h5 class="card-title" style="line-height: 35px;">Telèfon</h5>
+                <p class="card-text">Truca'ns al <u>934 83 26 00</u> i solucionarem qualsevol tipus de consulta que tinguis.</p>
+            </div>
+        </div>
+
+        <div class="card contactos" style="padding: 10px;">
+            <div class="card-body">
+                <img src="assets/iconos/office.png" class="col-md-2" style="margin-bottom: 15px;" />
+                <h5 class="card-title" style="line-height: 35px;">Departament</h5>
+                <p class="card-text">Passa't pel nostre departament de l'ajuntament per a un tracte més personal.</p>
+            </div>
+        </div>
+        <div class="card contactos" style="padding: 10px;">
+            <div class="card-body">
+                <img src="assets/iconos/form.png" class="col-md-2" style="margin-bottom: 15px;" />
+                <h5 class="card-title" style="line-height: 35px;">Formulari</h5>
+                <p class="card-text">Omple el nostre formulari per poder contestar la teva consulta via email.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row" style="margin: 60px;">
+    <div class="col-md-6">
+        <a href="https://www.google.com/maps?q=ayuntamiento+badalona&um=1&ie=UTF-8&sa=X&ved=2ahUKEwj8gp_l9pj3AhUM_KQKHQn7DloQ_AUoAXoECAIQAw">
+            <img src="assets/location.png" style="margin-top: 3px; margin-left: 70px; border-radius: 20px; max-height: 450px;" />
+        </a>
+    </div>
+    <div class="col-md-6">
+        <div style="line-height: 250%;">
+            <h1 style=" text-align: center; ">Horari</h1>
+            <hr style="margin-left: 40%; margin-right: 40%; height: 3px; color: rgb(3, 127, 243) ; ">
+            <p>Desprès d'haver revisat les nostres FAQs, segueixes necessitant ajuda? No et preocupis, pots trucar-nos al<b> 934 83 26 00</b> o enviar un missatge utilitzant el formulari de contacte que trobaràs més avall.</p>
+            <p>En cas de voler tenim un tracte cara a cara, també pots venir al ajuntament i preguntar pel nostre departament de turisme, a la <b>Plaza de la vila</b> i podrem atendre't en persona. Els nostres <u>horaris</u> són:</p>
+            <div class="row">
+                <div class="col-8">
+                    <li><b>Dilluns a divendres </b>de 8:30-13:30 h.</li>
+                    <li><b>Dijous </b>de 16:00-18:30 h.</li>
+                </div>
+                <div class="col-2">
+                    <img src="assets/Logos/ajuntament petit.PNG" style="margin-top: 3px; margin-left: 70px; border-radius: 20px;  max-height: 130px;" />
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <a id="Fomulario1"></a>
+</div>
+<!-- Formulario de presupuesto-->
+<form class="form3" style="padding: 60px; padding-right: 15%; padding-left: 15%; color: white;" onsubmit="return validacion()">
+    <h4 style="text-align: center; margin-bottom: 70px; line-height: 150%; ">Podeu emplenar el nostre formulari online per enviar un missatge al nostre equip d'atenció al client, i intentarem respondre al vostre missatge en un termini de 2 dies laborables</h4>
+
+    <fieldset class="row g-3 ">
+        <div class="col-md-7 ">
+            <label class="form-label">Nom complet<b> *</b></label>
+            <input type="text " class="form-control formulario required " placeholder="El seu nom" required>
+        </div>
+        <div class="col-md-5 ">
+            <label class="form-label ">Empresa</label>
+            <input type="text " class="form-control formulario " placeholder="Nom de la seva empresa">
+        </div>
+        <div class="col-7 ">
+            <label class="form-label ">Direcció de correu <b>*</b></label>
+            <input type="email " class="form-control formulario required" placeholder="nom@exemple.cat" required>
+        </div>
+        <div class="col-md-5 ">
+            <label class="form-label ">Telèfon</label>
+            <input type="tel " class="form-control formulario " placeholder="620 XX XX XX ">
+        </div>
+    </fieldset>
+
+    <fieldset class="row g-3 " style="margin-top: 4px; ">
+        <div class="col-5 ">
+            <label class="form-label ">Assumpte</label>
+            <select class="form-select ">
+                    <option value="1 ">Sol·licitud de pressupost</option>
+                    <option selected>Obtenir més informació</option>
+                    <option value="3 ">Sol·licitar fitxa tècnica dels nostres serveis</option>
+                    <option value="4 ">Una altra raó</option>
+                  </select>
+        </div>
+
+        <div class="col-12 ">
+            <label class="form-label ">Missatge <b>*</b></label>
+            <textarea class="form-control formulario required" style="height: 100px " placeholder="Escriu aquí el teu missatge" required></textarea>
+        </div>
+        <div style="background-color: white; border-radius: 7px; color: initial; width: 36%; padding: 8px; margin-left: 8px; ">
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" checked>
+                <label class="form-check-label" for="flexSwitchCheckChecked">Vull rebre notificacions i notícies sobre la Lona</label>
+            </div>
+        </div>
+
+        <div class="col-10 " style="margin-top: 30px; ">
+            <button type="submit" [routerLink]="[ '/gracias'] " class="btn " style="background-color: rgb(183, 231, 250); letter-spacing: 2px;border-radius: 0%; border-width: 2px; width: 200px; height: 120%; ">Enviar sol·licitud</button>
+        </div>
+    </fieldset>
+</form>
